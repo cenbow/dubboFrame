@@ -1,0 +1,168 @@
+[INFO ][20161208 14:10:39,706][ContextLoader:273] Root WebApplicationContext: initialization started
+[INFO ][20161208 14:10:39,765][AbstractApplicationContext:510] Refreshing Root WebApplicationContext: startup date [Thu Dec 08 14:10:39 CST 2016]; root of context hierarchy
+[INFO ][20161208 14:10:39,800][XmlBeanDefinitionReader:315] Loading XML bean definitions from URL [file:/F:/workspace-20161024/Dubbo/Dubbo-middleDemo/tech-web-boss/target/classes/spring-framework.xml]
+[INFO ][20161208 14:10:39,881][XmlBeanDefinitionReader:315] Loading XML bean definitions from URL [file:/F:/workspace-20161024/Dubbo/Dubbo-middleDemo/tech-web-boss/target/classes/dubbo-consumer.xml]
+[INFO ][20161208 14:10:39,916][?:?] using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+[INFO ][20161208 14:10:39,998][PropertiesLoaderSupport:172] Loading properties file from class path resource [config.properties]
+[INFO ][20161208 14:10:39,999][PropertiesLoaderSupport:172] Loading properties file from class path resource [service.properties]
+[INFO ][20161208 14:10:40,019][DefaultListableBeanFactory:598] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@741830b8: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,messageSource,tech-web-boss,com.alibaba.dubbo.config.RegistryConfig,userService]; root of factory hierarchy
+[INFO ][20161208 14:10:40,202][ContextLoader:313] Root WebApplicationContext: initialization completed in 495 ms
+[INFO ][20161208 14:10:40,237][FrameworkServlet:454] FrameworkServlet 'springmvc': initialization started
+[INFO ][20161208 14:10:40,239][AbstractApplicationContext:510] Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Thu Dec 08 14:10:40 CST 2016]; parent: Root WebApplicationContext
+[INFO ][20161208 14:10:40,240][XmlBeanDefinitionReader:315] Loading XML bean definitions from URL [file:/F:/workspace-20161024/Dubbo/Dubbo-middleDemo/tech-web-boss/target/classes/spring-mvc.xml]
+[INFO ][20161208 14:10:40,272][ClassPathScanningCandidateComponentProvider:239] JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+[INFO ][20161208 14:10:40,362][AutowiredAnnotationBeanPostProcessor:140] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO ][20161208 14:10:40,372][DefaultListableBeanFactory:598] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@12cb4632: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,helloWorldController,mappingJacksonHttpMessageConverter,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,multipartResolver,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.web.servlet.view.InternalResourceViewResolver#0,messageSource,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@741830b8
+[INFO ][20161208 14:10:40,434][AbstractRegistry:232]  [DUBBO] Load registry store file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.1.171.cache, data: {com.cuoohe.service.UserService=empty://192.168.1.167:20880/com.cuoohe.service.UserService?anyhost=true&application=tech-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.cuoohe.service.UserService&methods=getUserById&pid=13044&side=provider&timestamp=1481176755699, wusc.edu.facade.user.service.PmsUserFacade=empty://192.168.1.167:20880/wusc.edu.facade.user.service.PmsUserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=wusc.edu.facade.user.service.PmsUserFacade&methods=updateUserPwd,update,listPage,getById,findUserByUserNo,deleteUserById,create&pid=8800&revision=1.0-SNAPSHOT&side=provider&timestamp=1464258107661}, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20161208 14:10:40,445][ZkEventThread:64] Starting ZkClient event thread.
+[INFO ][20161208 14:10:40,456][Environment:100] Client environment:zookeeper.version=3.4.5-1392090, built on 09/30/2012 17:52 GMT
+[INFO ][20161208 14:10:40,457][Environment:100] Client environment:host.name=XQ-20150313XCXW
+[INFO ][20161208 14:10:40,457][Environment:100] Client environment:java.version=1.7.0_79
+[INFO ][20161208 14:10:40,457][Environment:100] Client environment:java.vendor=Oracle Corporation
+[INFO ][20161208 14:10:40,457][Environment:100] Client environment:java.home=C:\Program Files\Java\jre7
+[INFO ][20161208 14:10:40,457][Environment:100] Client environment:java.class.path=/D:/softwareTool/eclipse-jee-luna-SR2-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.5.1.20150109-1819/jars/plexus-classworlds-2.5.1.jar
+[INFO ][20161208 14:10:40,457][Environment:100] Client environment:java.library.path=C:\Program Files\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.2 & MySQL Utilities 1.5.2 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.2 & MySQL Utilities 1.5.2 1.5\Doctrine extensions for PHP\;C:\Program Files\Java\jdk1.7.0_79\bin;;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Program Files (x86)\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Lua\5.1;C:\Program Files (x86)\Lua\5.1\clibs;D:\softwareTool\apache-maven-3.1.0-bin\apache-maven-3.1.0\bin;C:\Program Files\Java\jdk1.6.0_43\bin;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;.
+[INFO ][20161208 14:10:40,458][Environment:100] Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+[INFO ][20161208 14:10:40,458][Environment:100] Client environment:java.compiler=<NA>
+[INFO ][20161208 14:10:40,458][Environment:100] Client environment:os.name=Windows 7
+[INFO ][20161208 14:10:40,458][Environment:100] Client environment:os.arch=amd64
+[INFO ][20161208 14:10:40,458][Environment:100] Client environment:os.version=6.1
+[INFO ][20161208 14:10:40,458][Environment:100] Client environment:user.name=Administrator
+[INFO ][20161208 14:10:40,459][Environment:100] Client environment:user.home=C:\Users\Administrator
+[INFO ][20161208 14:10:40,459][Environment:100] Client environment:user.dir=F:\workspace-20161024\Dubbo\Dubbo-middleDemo\tech-web-boss
+[INFO ][20161208 14:10:40,459][ZooKeeper:438] Initiating client connection, connectString=192.168.1.171:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@348339d0
+[INFO ][20161208 14:10:40,810][ClientCnxn$SendThread:966] Opening socket connection to server 192.168.1.171/192.168.1.171:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO ][20161208 14:10:40,831][ClientCnxn$SendThread:849] Socket connection established to 192.168.1.171/192.168.1.171:2181, initiating session
+[INFO ][20161208 14:10:40,895][ClientCnxn$SendThread:1207] Session establishment complete on server 192.168.1.171/192.168.1.171:2181, sessionid = 0x158dc8c81d30007, negotiated timeout = 30000
+[INFO ][20161208 14:10:40,896][ZkClient:449] zookeeper state changed (SyncConnected)
+[INFO ][20161208 14:10:40,921][AbstractRegistry:302]  [DUBBO] Register: consumer://192.168.1.167/com.cuoohe.service.UserService?application=tech-web-boss&category=consumers&check=false&dubbo=2.5.3&interface=com.cuoohe.service.UserService&methods=getUserById&pid=12588&revision=1.0-SNAPSHOT&side=consumer&timestamp=1481177440381, dubbo version: 2.5.3, current host: 192.168.1.167
+[INFO ][20161208 14:10:41,048][AbstractRegistry:325]  [DUBBO] Subscribe: consumer://192.168.1.167/com.cuoohe.service.UserService?application=tech-web-boss&category=providers,configurators,routers&check=false&dubbo=2.5.3&interface=com.cuoohe.service.UserService&methods=getUserById&pid=12588&revision=1.0-SNAPSHOT&side=consumer&timestamp=1481177440381, dubbo version: 2.5.3, current host: 192.168.1.167
+[INFO ][20161208 14:10:41,492][AbstractRegistry:422]  [DUBBO] Notify urls for subscribe url consumer://192.168.1.167/com.cuoohe.service.UserService?application=tech-web-boss&category=providers,configurators,routers&check=false&dubbo=2.5.3&interface=com.cuoohe.service.UserService&methods=getUserById&pid=12588&revision=1.0-SNAPSHOT&side=consumer&timestamp=1481177440381, urls: [dubbo://192.168.1.167:20880/com.cuoohe.service.UserService?anyhost=true&application=tech-service-user&dubbo=2.5.3&interface=com.cuoohe.service.UserService&methods=getUserById&pid=13044&side=provider&timestamp=1481176755699, dubbo://192.168.1.171:20880/com.cuoohe.service.UserService?anyhost=true&application=tech-service-user&dubbo=2.5.3&interface=com.cuoohe.service.UserService&methods=getUserById&pid=2870&revision=1.0-SNAPSHOT&side=provider&timestamp=1481169109657, empty://192.168.1.167/com.cuoohe.service.UserService?application=tech-web-boss&category=configurators&check=false&dubbo=2.5.3&interface=com.cuoohe.service.UserService&methods=getUserById&pid=12588&revision=1.0-SNAPSHOT&side=consumer&timestamp=1481177440381, empty://192.168.1.167/com.cuoohe.service.UserService?application=tech-web-boss&category=routers&check=false&dubbo=2.5.3&interface=com.cuoohe.service.UserService&methods=getUserById&pid=12588&revision=1.0-SNAPSHOT&side=consumer&timestamp=1481177440381], dubbo version: 2.5.3, current host: 192.168.1.167
+[INFO ][20161208 14:10:41,662][AbstractClient:287]  [DUBBO] Successed connect to server /192.168.1.167:20880 from NettyClient 192.168.1.167 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x5f591e63, /192.168.1.167:53234 => /192.168.1.167:20880]], dubbo version: 2.5.3, current host: 192.168.1.167
+[INFO ][20161208 14:10:41,662][AbstractClient:105]  [DUBBO] Start NettyClient XQ-20150313XCXW/192.168.1.167 connect to the server /192.168.1.167:20880, dubbo version: 2.5.3, current host: 192.168.1.167
+[ERROR][20161208 14:10:43,211][AbstractClient:112]  [DUBBO] Failed to start NettyClient XQ-20150313XCXW/192.168.1.167 connect to the server /192.168.1.171:20880 (check == false, ignore and retry later!), cause: client(url: dubbo://192.168.1.171:20880/com.cuoohe.service.UserService?anyhost=true&application=tech-web-boss&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.cuoohe.service.UserService&methods=getUserById&pid=12588&revision=1.0-SNAPSHOT&side=consumer&timestamp=1481177440381) failed to connect to server /192.168.1.171:20880, error message is:connection timed out, dubbo version: 2.5.3, current host: 192.168.1.167
+com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://192.168.1.171:20880/com.cuoohe.service.UserService?anyhost=true&application=tech-web-boss&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.cuoohe.service.UserService&methods=getUserById&pid=12588&revision=1.0-SNAPSHOT&side=consumer&timestamp=1481177440381) failed to connect to server /192.168.1.171:20880, error message is:connection timed out
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:124)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:280)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:103)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.<init>(NettyClient.java:61)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyTransporter.connect(NettyTransporter.java:37)
+	at com.alibaba.dubbo.remoting.Transporter$Adpative.connect(Transporter$Adpative.java)
+	at com.alibaba.dubbo.remoting.Transporters.connect(Transporters.java:67)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchanger.connect(HeaderExchanger.java:37)
+	at com.alibaba.dubbo.remoting.exchange.Exchangers.connect(Exchangers.java:102)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.initClient(DubboProtocol.java:378)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.getSharedClient(DubboProtocol.java:344)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.getClients(DubboProtocol.java:321)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.refer(DubboProtocol.java:303)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.refer(ProtocolListenerWrapper.java:65)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.refer(ProtocolFilterWrapper.java:62)
+	at com.alibaba.dubbo.rpc.Protocol$Adpative.refer(Protocol$Adpative.java)
+	at com.alibaba.dubbo.registry.integration.RegistryDirectory.toInvokers(RegistryDirectory.java:395)
+	at com.alibaba.dubbo.registry.integration.RegistryDirectory.refreshInvoker(RegistryDirectory.java:224)
+	at com.alibaba.dubbo.registry.integration.RegistryDirectory.notify(RegistryDirectory.java:195)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:449)
+	at com.alibaba.dubbo.registry.support.FailbackRegistry.doNotify(FailbackRegistry.java:273)
+	at com.alibaba.dubbo.registry.support.FailbackRegistry.notify(FailbackRegistry.java:259)
+	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry.doSubscribe(ZookeeperRegistry.java:170)
+	at com.alibaba.dubbo.registry.support.FailbackRegistry.subscribe(FailbackRegistry.java:189)
+	at com.alibaba.dubbo.registry.integration.RegistryDirectory.subscribe(RegistryDirectory.java:133)
+	at com.alibaba.dubbo.registry.integration.RegistryProtocol.doRefer(RegistryProtocol.java:271)
+	at com.alibaba.dubbo.registry.integration.RegistryProtocol.refer(RegistryProtocol.java:254)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.refer(ProtocolListenerWrapper.java:63)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.refer(ProtocolFilterWrapper.java:60)
+	at com.alibaba.dubbo.rpc.Protocol$Adpative.refer(Protocol$Adpative.java)
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:392)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:300)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:138)
+	at com.alibaba.dubbo.config.spring.ReferenceBean.getObject(ReferenceBean.java:65)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:142)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:102)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1454)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:249)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:198)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:270)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:912)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:855)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:770)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:486)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:285)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:628)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:651)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:599)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:665)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:518)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:459)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:212)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1173)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:993)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4350)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4659)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1045)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:785)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1045)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:445)
+	at org.apache.catalina.startup.Embedded.start(Embedded.java:825)
+	at org.codehaus.mojo.tomcat.AbstractRunMojo.startContainer(AbstractRunMojo.java:558)
+	at org.codehaus.mojo.tomcat.AbstractRunMojo.execute(AbstractRunMojo.java:255)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:133)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:108)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:76)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:116)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:361)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:155)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:584)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:213)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:157)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+Caused by: java.net.ConnectException: connection timed out
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink$Boss.processConnectTimeout(NioClientSocketPipelineSink.java:371)
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink$Boss.run(NioClientSocketPipelineSink.java:283)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[INFO ][20161208 14:10:43,268][ReferenceConfig:423]  [DUBBO] Refer dubbo service com.cuoohe.service.UserService from url zookeeper://192.168.1.171:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=tech-web-boss&check=false&dubbo=2.5.3&interface=com.cuoohe.service.UserService&methods=getUserById&pid=12588&revision=1.0-SNAPSHOT&side=consumer&timestamp=1481177440381, dubbo version: 2.5.3, current host: 192.168.1.167
+[INFO ][20161208 14:10:43,785][AbstractUrlHandlerMapping:315] Mapped URL path [/index] onto handler 'helloWorldController'
+[INFO ][20161208 14:10:43,785][AbstractUrlHandlerMapping:315] Mapped URL path [/index.*] onto handler 'helloWorldController'
+[INFO ][20161208 14:10:43,785][AbstractUrlHandlerMapping:315] Mapped URL path [/index/] onto handler 'helloWorldController'
+[INFO ][20161208 14:10:43,800][AbstractUrlHandlerMapping:315] Mapped URL path [/favicon.ico] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[INFO ][20161208 14:10:43,860][FrameworkServlet:473] FrameworkServlet 'springmvc': initialization completed in 3623 ms
+[WARN ][20161208 14:10:45,708][AbstractClient$1:160]  [DUBBO] client reconnect to 192.168.1.171:20880 find error . url: dubbo://192.168.1.171:20880/com.cuoohe.service.UserService?anyhost=true&application=tech-web-boss&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.cuoohe.service.UserService&methods=getUserById&pid=12588&revision=1.0-SNAPSHOT&side=consumer&timestamp=1481177440381, dubbo version: 2.5.3, current host: 192.168.1.167
+com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://192.168.1.171:20880/com.cuoohe.service.UserService?anyhost=true&application=tech-web-boss&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.cuoohe.service.UserService&methods=getUserById&pid=12588&revision=1.0-SNAPSHOT&side=consumer&timestamp=1481177440381) failed to connect to server /192.168.1.171:20880, error message is:connection timed out
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:124)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:280)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:145)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: connection timed out
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink$Boss.processConnectTimeout(NioClientSocketPipelineSink.java:371)
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink$Boss.run(NioClientSocketPipelineSink.java:283)
+	... 3 more
